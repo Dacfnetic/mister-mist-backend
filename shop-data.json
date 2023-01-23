@@ -1,0 +1,102 @@
+[
+   {
+        "key": "1",
+        "quantity": 0,
+        "existences": 50,
+        "name": "Vape Cryo",
+        "price": 299.99,
+        "isOffered": false,
+        "offeredPrice": 224.99,
+        "description": "Sabor hielo menta"
+    },
+    {
+        "key": "2",
+        "quantity": 0,
+        "existences": 80,
+        "name": "Vape Heaven",
+        "price": 499.99,
+        "isOffered": false,
+        "offeredPrice": 424.99,
+        "description": "Sabor angel"
+    },
+    {
+        "key": "3",
+        "quantity": 0,
+        "existences": 70,
+        "name": "Vape Thunder",
+        "price": 399.99,
+        "isOffered": true,
+        "offeredPrice": 324.99,
+        "description": "Sabor electricidad"
+    },
+    {
+        "key": "4",
+        "quantity": 0,
+        "existences": 60,
+        "name": "Vape Skull",
+        "price": 99.99,
+        "isOffered": false,
+        "offeredPrice": 24.99,
+        "description": "Sabor muerte"
+    },
+    {
+        "key": "5",
+        "quantity": 0,
+        "existences": 20,
+        "name": "Vape Cherry",
+        "price": 299.99,
+        "isOffered": true,
+        "offeredPrice": 224.99,
+        "description": "Sabor Cereza"
+    },
+    {
+        "key": "6",
+        "quantity": 0,
+        "existences": 40,
+        "name": "Vape Smoke",
+        "price": 299.99,
+        "isOffered": false,
+        "offeredPrice": 224.99,
+        "description": "Sabor cigarro"
+    },
+    {
+        "key": "7",
+        "quantity": 0,
+        "existences": 10,
+        "name": "Vape 420",
+        "price": 699.99,
+        "isOffered": true,
+        "offeredPrice": 224.99,
+        "description": "Sabor novia de spiderman"
+    },
+    {
+        "key": "8",
+        "quantity": 0,
+        "existences": 20,
+        "name": "Vape Toronja",
+        "price": 299.99,
+        "isOffered": false,
+        "offeredPrice": 224.99,
+        "description": "Sabor toronja"
+    },
+    {
+        "key": "9",
+        "quantity": 0,
+        "existences": 30,
+        "name": "Vape teen spirit",
+        "price": 99.99,
+        "isOffered": false,
+        "offeredPrice": 24.99,
+        "description": "Sabor ropa humeda"
+    },
+    {
+        "key": "10",
+        "quantity": 0,
+        "existences": 40,
+        "name": "Vape hot",
+        "price": 199.99,
+        "isOffered": false,
+        "offeredPrice": 24.99,
+        "description": "Sabor chetos"
+    }
+]

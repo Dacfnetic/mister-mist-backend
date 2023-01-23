@@ -7,7 +7,7 @@ app.use(express.json());
 app.use(cors());
 
 const reload = async () => {
-    await console.log("Refresh");
+    await products.push("Zorra");
     await setTimeout(() => {
         reload();
     }, 2000);

@@ -14,7 +14,7 @@ const reload = async () => {
 }
 
 
-//reload();
+reload();
 
 app.get('/', (req,res) =>{
     res.json(products);

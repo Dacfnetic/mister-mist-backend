@@ -6,10 +6,26 @@ const PORT = process.env.PORT || 3030;
 app.use(express.json());
 app.use(cors());
 
-app.get('/', (req,res) =>{
+const reload = async () => {
+    await console.log("Refresh");
+    await setTimeout(() => {
+        reload();
+    }, 2000);
+}
 
+
+//reload();
+
+app.get('/', (req,res) =>{
     res.json(products);
 })
+
+
+
+
+
+
+
 /*
 app.post('/signin', (req, res) => {
 
@@ -97,4 +113,5 @@ app.put('/image', (req,res) => {
 
 app.listen(PORT, () => {
     console.log(`server started on port ${PORT}`);
-  });
+});
+

@@ -2,7 +2,7 @@ const express = require('express');
 const cors = require('cors');
 const products = require('./shop-data.json');
 const app = express();
-
+const PORT = process.env.PORT || 3030;
 app.use(express.json());
 app.use(cors());
 
@@ -95,6 +95,6 @@ app.put('/image', (req,res) => {
     return res.status(404).json('no such user');
 });*/
 
-app.listen(3000, () => {
-    console.log("App is running on port 3000");
-});
+app.listen(PORT, () => {
+    console.log(`server started on port ${PORT}`);
+  });

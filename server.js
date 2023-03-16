@@ -26,17 +26,9 @@ app.get('/', (req,res) =>{
 
 
 
-/*
-app.post('/signin', (req, res) => {
 
+app.post('/request', (req, res) => {
     // Load hash from your password DB.
-    bcrypt.compare("apples", '$2a$10$SQ7941KHrEgJ8CzJq95F5.rkq6Dliw0tLBtFX7ILqCU2JiPgWSVBG', function(err, res) {
-        console.log('first guess', res);
-    });
-    bcrypt.compare("veggies", '$2a$10$SQ7941KHrEgJ8CzJq95F5.rkq6Dliw0tLBtFX7ILqCU2JiPgWSVBG', function(err, res) {
-        console.log('second guess', res);
-    });
-
     if(req.body.email === database.users[0].email && req.body.password === database.users[0].password){
         res.json(database.users[0]);
     }else{
@@ -44,7 +36,7 @@ app.post('/signin', (req, res) => {
     }
     res.json('signing');
 });
-*/
+
 app.get('/products/:key/:cantidad', (req,res) => {
     const {key, cantidad} = req.params;
     console.log(req.params);
